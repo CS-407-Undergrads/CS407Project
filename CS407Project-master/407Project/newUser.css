@@ -1,0 +1,28 @@
+body {
+  background-color: dodgerblue;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  text-shadow: -1px 1px black;
+  position:relative;
+}
+
+input[type=text] {
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+hr{
+  height: 5px; background-color: black;
+  border: 0;
+}
+
+fieldset{
+  border-color: black;
+}
