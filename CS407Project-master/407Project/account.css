@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', serif;
+  background-color: dodgerblue;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  position: relative;
+}
+
+.nav {
+  background-color: white;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 20px 0;
+}
+
+.nav>li {
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  font-size: 15px;
+}
+
+.nav>li>a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav>li>a:hover {
+  color: #c1c1c1;
+}
+
+.logo {
+  float: left;
+  color: #000000;
+  padding-left: 25px;
+}
