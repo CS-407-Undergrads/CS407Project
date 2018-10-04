@@ -1,14 +1,17 @@
-var firstName, lastName, pwd;
+var firstName, lastName, pwd, usrname;
 
 //saving input to declared variables
 var saveInfo = function() {
+
+
   // empty array
   var savedData = [];
   //assigning variables to elements with specific ID name, will change when
   //proper ID name is declared
-  firstName = document.getElementById("firstName");
-  lastName = document.getElementById("lastName");
-  pwd = document.getElementById("password");
+  firstName = document.getElementsByName("first_name");
+  lastName = document.getElementsByName("last_name");
+  emailadd = document.getElementsByName("email");
+  usrname = document.getElementsByName("username");
   //checks if field is null, if not pushs into array at the end
   if(firstName != null){
     savedData.push(firstName);
@@ -16,8 +19,11 @@ var saveInfo = function() {
   if(lastName != null){
     savedData.push(lastName);
   }
-  if(pwd != null){
-    savedData.push(pwd);
+  if(emailadd != null){
+    savedData.push(emailadd);
+  }
+  if(usrname != null){
+    savedData.push(usrname);
   }
 
   // find all elements with tag name input and assign them all to ""
