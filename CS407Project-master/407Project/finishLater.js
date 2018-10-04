@@ -42,10 +42,14 @@ var deleteData = function(){
   var response = confirm("Are you sure you want to delete?");
   if(response == true){
     answer = "deleted";
+    alert(answer);
+    location.reload();
+
     //setting savedData length to 0 erases contents of array
     savedData.length = 0;
   } else {
     answer = "Account creation still in progress, nothing erased";
+    alert(answer);
   }
 
 }
