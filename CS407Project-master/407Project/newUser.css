@@ -18,6 +18,27 @@ input[type=text] {
   font-size: 15px;
 }
 
+input[type=password]
+{
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.signup {
+  position: absolute;
+  top: 50%;
+  margin-top: 175px;
+  left: 50%;
+  margin-left: -175px;
+  height: 150px;
+  width: 350px;
+  padding-left: 30px;
+}
+
 hr{
   height: 5px; background-color: black;
   border: 0;

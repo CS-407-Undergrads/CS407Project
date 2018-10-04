@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
 <title>Registration</title>
+
 <head>
 	<script src="finishLater.js">
 	</script>
 	<link rel="stylesheet" type="text/css" href="newUser.css">
 </head>
-  <body style="background-color: dodgerblue;">
-    <h1 style="text-align: center;">HELLO NEW USER</h1><hr><br>
-    <fieldset>
-    	<legend style="text-align: center;">Sign Up</legend><br>
-    	<form style="text-align: center;">
-    		First Name:<input type="text" name="first_name"/><br>
-    		Last Name:<input type="text" name="last_name"/><br>
-    		Email Address:<input type="text" name="email"/><br>
-    		Username:<input type="text" name="username"/><br>
-    		<button type="button" id="submit">Sign UP</button>
+
+<body>
+
+	<h1 style="text-align: center;">HELLO NEW USER</h1>
+	<hr><br>
+	<div class="signup">
+		<fieldset>
+			<legend>Sign Up</legend><br>
+
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" />
+				<p>where I tell user username requirements</p>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" />
+				<p>where I tell user password requirements</p>
+
+				<button type="button" id="submit">Sign UP</button>
 				<button type="button" id="finish_later" onclick="saveInfo();">Finish Later</button>
 				<button type="button" id="delete_data" onclick="deleteData();">Delete Data</button>
-    	</form>
-    </fieldset>
-  </body>
+
+			</form>
+
+		</fieldset>
+		<div class="signup">
+</body>
+
 </html>
