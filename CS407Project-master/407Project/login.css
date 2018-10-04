@@ -17,6 +17,16 @@ input[type=text] {
   box-sizing: border-box;
   font-size: 15px;
 }
+input[type=password]
+{
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
 
 .login a {
   color: gold;
